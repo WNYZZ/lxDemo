@@ -1,0 +1,290 @@
+
+
+
+
+
+
+
+
+/*************************************************index******************************************/
+.index_super{
+    margin-top: 50px;
+}
+.login_top{
+
+    height: 50px;
+    background: url("../images/form_back_03.jpg") repeat-x;
+    line-height: 50px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.menu_super{
+    padding: 0;
+    height: 700px;
+
+    border-right: 1px solid #cbdee4;
+}
+
+#menu{
+    height: 100%;
+    width: 99.99%;
+    background-color: #e3eff3;
+    z-index: 20;
+
+}
+#main{
+    height: 100%;
+    width: 99.99%;
+    background-color: #ffffff;
+
+}
+
+
+
+/***********************************************mune_left.html**************************************************/
+.mune_left_main{
+    cursor: pointer;
+    background-color: #e3eff3;
+    height: 100%;
+}
+.mune_left_title{
+    color: #285873;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.mune_left_main ul >li a{
+    color: #3f7390;
+}
+.mune_left_main ul >li:hover a{
+    color: #000000;
+}
+.mune_left_main ul >li:hover {
+    background-color: #d1e8f1;
+}
+
+
+/***********************************************infoDefault.html**************************************************/
+.header{
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    border-bottom: 1px solid #e3eff3;
+
+}
+.header ul{
+    float: left;
+    margin-right: 20px;
+}
+.header span{
+    font-size: 14px;
+    font-weight: bold;
+
+
+}
+.info_newinfo{
+
+    float: right!important;
+    cursor: pointer;
+
+
+}
+.info_newinfo a{
+    color: #03F;
+    font-size: 14px;
+    border: 1px solid #ebebeb;
+    padding: 5px 10px;
+}
+.info_title{
+    font-size: 16px;
+    font-weight: bold;
+}
+.info_content_super{
+    padding: 25px 25px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.info_content{
+
+}
+.info_dataArea{
+    margin-top: 5px;
+    color: #aaaaaa;
+}
+
+.info_content_right{
+    text-align: right;
+    line-height: 47px;
+
+}
+.info_content_right a{
+    color: #03F;
+}
+
+.notProofread a{
+    color: red!important;
+}
+
+
+
+
+
+
+
+/***********************************************添加抽样明细  ap_*.html **************************************************/
+.ap_all_title{
+    background: url("../images/soft_important.png") no-repeat 10px center;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 24px;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    border-bottom:1px solid #e3eff3;
+}
+.ap_sample_main{
+
+    margin: 8% auto 0 auto;
+    height: 600px;
+
+    overflow: hidden;
+}
+.ap_sample{
+
+    width: 99.99%;
+    margin: auto;
+    border: 1px solid #e3eff3;
+}
+
+.ap_sample thead{
+    height: 30px;
+    background: url("../images/form_back_03.jpg") repeat-x;
+}
+.ap_sample thead tr{
+    height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.ap_sample  tbody td{
+
+    padding: 10px 0!important;
+}
+.ap_sample  tbody tr{
+    border-bottom: 1px dashed #e3eff3;
+}
+.ap_sample  tbody tr:hover{
+    cursor: pointer;
+    background: #f5f5f5;
+}
+/*.ap_sample  tbody:last-child tr:hover{
+    cursor: pointer;
+    background: none;
+}*/
+
+.ap_allAdd{
+    width: 60%;
+    margin: auto;
+    border:1px solid #c2deef;
+    padding:5px 5px;
+}
+
+.ap_allUp,.ap_allDel{
+    color: #03F;
+}
+.ap_allDel:hover{
+    color: red;
+}
+.ap_allUp:hover{
+    color: #fd7e14;
+}
+
+
+.ap_allAdd:hover{
+    background: #e3eff3;
+    color: #03F;
+}
+
+
+
+/***********************************************新增抽样表  infoDefault.html **************************************************/
+.new_sampleTable{
+    margin: 10% auto 0 auto ;
+
+    width: 90%;
+    border: 1px solid #e3eff3;
+
+}
+
+.new_sampleTable thead tr{
+    background: url("../images/form_back_03.jpg") repeat-x;
+    height: 20px;
+    line-height: 20px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.new_sampleTable tbody tr:hover{
+    background: #f5f5f5;
+}
+
+.new_sampleTable tr{
+    border-bottom: 1px dashed #e3eff3;
+}
+.new_sampleTable tbody tr:nth-child(n+1) td:nth-of-type(odd){
+    text-align: right;
+    padding-right: 1%!important;
+}
+.new_sampleTable tr td:nth-of-type(even){
+    text-align: left;
+    padding-left: 1%!important;
+}
+
+.new_sampleTable tr td{
+    padding: 10px 0!important;
+}
+
+.new_sampleSelect{
+    width:70%;
+    cursor: pointer;
+}
+.new_sampleInput{
+    width: 70%;
+    cursor: pointer;
+}
+
+
+/***********************************************农产品抽样表  ap_table.html **************************************************/
+.ap_table_title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 2% 0;
+}
+.ap_table_table{
+    width: 99.99%;
+    margin: auto;
+    border: 1px solid #e3eff3;
+}
+.ap_table_table thead tr{
+    height: 40px;
+    background: url(../images/form_back_03.jpg) repeat-x;
+    font-size: 14px;
+    font-weight: bold;
+}
+.ap_table_table tbody td{
+    padding: 10px 0!important;
+}
+.ap_table_table tbody tr:hover{
+    cursor: pointer;
+    background: #f5f5f5;
+}
+.ap_table{
+    padding: 8% 5% 0 5%;
+}
+
+
+
+
+
+
