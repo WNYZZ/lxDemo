@@ -55,6 +55,10 @@ a:active {
 
 
 
+
+.lx_dis_none{
+    display: none;
+}
 .lxclear{
     clear: both;
 }
