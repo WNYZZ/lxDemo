@@ -206,7 +206,19 @@
     color: #03F;
 }
 
+.update_tfoot{
+    width: 90%;
+    margin: auto;
+    border: 1px solid #e3eff3;
+    border-top: none;
+    padding: 2% 0 1% 0;
+    text-align: center;
+}
+.update_tfoot ul{
+    display: inline-block;
 
+    margin-right: 2%;
+}
 
 /***********************************************新增抽样表  infoDefault.html **************************************************/
 .new_sampleTable{

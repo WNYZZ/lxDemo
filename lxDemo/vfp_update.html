@@ -3,7 +3,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta charset="UTF-8">
-    <title>新增顺德区农产品抽样检测记录</title>
+    <title>更新农药检测记录</title>
     <link rel="stylesheet" href="css/bootstrap3.7.css">
     <script src="js/jquery3.2.1.js"></script>
     <script src="js/bootstrap3.3.7.js"></script>
@@ -12,13 +12,13 @@
     <script src="js/lxjs.js"></script>
 </head>
 <body>
-        <div class="container-fluid"><span class="ap_all_title">新增顺德区农产品抽样检测记录</span></div>
+        <div class="container-fluid"><span class="ap_all_title">更新农药检测记录</span></div>
         <div class="container ap_add_main text-center" >
             <div class="row">
                 <table class="ap_addTable" border="0" cellpadding="1">
                     <thead>
                         <tr>
-                            <td colspan="2">新增顺德区农产品抽样检测记录</td>
+                            <td colspan="2">更新农药检测记录</td>
                         </tr>
                     </thead>
                     <tbody>
@@ -27,29 +27,40 @@
                             <td><input class="ap_addAll" type="text" placeholder="请输入序号" value="1"> </td>
                         </tr>
                         <tr>
-                            <td>样品名称</td>
+                            <td>生产商/经营商</td>
                             <td>
                                 <select class="ap_addAll">
-                                    <option value="-1">请选择样品</option>
+                                    <option value="-1">请选择生产商/经营商</option>
                                     <option>猪尿</option>
                                 </select>
                             </td>
                         </tr>
                         <tr>
-                            <td>样品编号：</td>
-                            <td><input class="ap_addAll" type="text" placeholder="请输入样品编号" value="1"> </td>
+                            <td>蔬菜品种：</td>
+                            <td>
+                                <select class="ap_addAll">
+                                    <option value="-1">请选择蔬菜品种</option>
+                                    <option>猪尿</option>
+                                </select>
+                            </td>
                         </tr>
                         <tr>
-                            <td>抽样数量：</td>
-                            <td><input class="ap_addAll" type="text" placeholder="请输入抽样数量" value="1"> </td>
+                            <td>测试反应记录：</td>
+                            <td>
+                                <select class="ap_addAll">
+                                    <option value="-1">请选择测试反应</option>
+                                    <option>猪尿</option>
+                                </select>
+                            </td>
                         </tr>
                         <tr>
-                            <td>基数：</td>
-                            <td><input class="ap_addAll" type="text" placeholder="请输入基数" value="1"> </td>
-                        </tr>
-                        <tr>
-                            <td>抽样地点：</td>
-                            <td><input class="ap_addAll" type="text" placeholder="请输入抽样地点" value="1"> </td>
+                            <td>产地：</td>
+                            <td>
+                                <select class="ap_addAll">
+                                    <option value="-1">请选择产地</option>
+                                    <option>猪尿</option>
+                                </select>
+                            </td>
                         </tr>
                         <tr>
                             <td>抽样地点：</td>
@@ -69,36 +80,7 @@
                                 </select>
                             </td>
                         </tr>
-                        <tr>
-                            <td>样品类型：</td>
-                            <td>
-                                <select class="ap_addAll">
-                                    <option value="-1">请选择样品类型</option>
-                                    <option>尿样</option>
-                                    <option>鱼样</option>
-                                </select>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>受检单位/电话：</td>
-                            <td>
-                                <select class="ap_addAll">
-                                    <option value="-1">请选择受检单位/电话</option>
-                                    <option>受检单位一</option>
-                                    <option>受检单位二</option>
-                                </select>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>受检人：</td>
-                            <td>
-                                <select class="ap_addAll">
-                                    <option value="-1">请选择受检人</option>
-                                    <option>受检人一</option>
-                                    <option>受检人二</option>
-                                </select>
-                            </td>
-                        </tr>
+
                         <tr>
                             <td>检测结果：</td>
                             <td>
@@ -111,17 +93,6 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>处理方式：</td>
-                            <td>
-                                <select class="ap_addAll">
-                                    <option value="-1">请选择处理方式</option>
-                                    <option value="2">销毁</option>
-                                    <option value="1">直接销毁</option>
-                                    <option value="1">不处理</option>
-                                </select>
-                            </td>
-                        </tr>
-                        <tr>
                             <td>备注：</td>
                             <td><input class="ap_addAll" type="text" placeholder="请输入备注" value="备注"> </td>
                         </tr>
@@ -129,7 +100,7 @@
                 </table>
                 <div class="ap_tfoot">
                     <ul class="ap_addEnt"><span class="lx_dis_none">提交</span></ul>
-                    <ul class="ap_addRet" onclick="history.go(-1);"><span class="lx_dis_none">返回</span></ul>
+                    <ul class="ap_addRet" onclick="onback();"><span class="lx_dis_none">返回</span></ul>
                 </div>
             </div>
         </div>
